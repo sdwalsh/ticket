@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Ticket from './components/Ticket/Ticket';
+import TicketAnimated from './components/Ticket/TicketAnimated';
 
 class App extends Component {
   render() {
@@ -8,12 +10,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>
-            Prize Wheel
+            #
           </p>
-          <label>Start</label>
-          <input type='number'></input>
-          <label>Ed</label>
-          <input type='number'></input>
+          <TicketAnimated />
         </header>
       </div>
     );

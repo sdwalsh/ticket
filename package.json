@@ -12,6 +12,7 @@
     "react-redux": "^6.0.1",
     "react-router-dom": "^4.4.0",
     "react-scripts": "2.1.8",
+    "react-spring": "^8.0.18",
     "redux": "^4.0.1",
     "typescript": "3.3.3333"
   },
